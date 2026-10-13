@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Continental Hotel Reservation Form</title>
+</head>
+<body style="background-color: #dcdcdc; font-family: serif; display: flex; justify-content: center; padding-top: 30px;">
+
+   
+    <div style="background-color: #dcdcdc; padding: 20px;">
+       
+       
+        <h2 style="color: red; text-align: center; margin-bottom: 20px;">
+            Continental Hotel Reservation Form
+        </h2>
+
+       
+        <form>
+            <table border="1" cellpadding="8" cellspacing="0" style="background-color: #bdd0e6; border-collapse: collapse; border: 1px solid #7a94b0;">
+               
+               
+                <tr>
+                    <td align="right" width="130"><b>Name</b></td>
+                    <td>
+                        <input type="text" placeholder="Enter your name" size="35">
+                    </td>
+                </tr>
+
+     
+                <tr>
+                    <td align="right"><b>eMail</b></td>
+                    <td>
+                        <input type="email"  placeholder="Enter your email" size="35">
+                    </td>
+                </tr>
+
+             
+                <tr>
+                    <td align="right"><b>Mobile No</b></td>
+                    <td>
+                        <input type="text" placeholder="Enter your cell number" size="35">
+                    </td>
+                </tr>
+
+               
+                <tr>
+                    <td align="right"><b>Arrival Time</b></td>
+                    <td>
+                        <input type="text" placeholder="Enter your arrival time" size="25">
+                    </td>
+                </tr>
+
+               
+                <tr>
+                    <td align="right"><b>Departure</b></td>
+                    <td>
+                        <input type="text" size="25">
+                        <input type="text" size="25">
+                    </td>
+                </tr>
+
+               
+                <tr>
+                    <td align="right"><b>Room Type</b></td>
+                    <td>
+                        <label><input type="radio" name="room" value="single"> Single</label>
+                        <label><input type="radio" name="room" value="double"> Double</label><br>
+                        <label><input type="radio" name="room" value="presidential"> Presidential Suite</label>
+                    </td>
+                </tr>
+
+               
+                <tr>
+                    <td align="right"><b>Preferences</b></td>
+                    <td>
+                        <label><input type="checkbox" name="pref" value="non-smoking"> Non-Smoking</label><br>
+                        <label><input type="checkbox" name="pref" value="internet"> Internet</label><br>
+                        <label><input type="checkbox" name="pref" value="firm-mattress"> Firm Mattress</label>
+                    </td>
+                </tr>
+
+               
+                <tr>
+                    <td align="right"><b>Mode of Payment</b></td>
+                    <td>
+                        <label><input type="checkbox" name="payment" value="cash"> Cash</label>
+                        <label><input type="checkbox" name="payment" value="check"> Check</label><br>
+                        <label><input type="checkbox" name="payment" value="card"> Credit Card</label>
+                        <select name="card_type">
+                            <option value="">Select Card</option>
+                            <option value="visa">Visa</option>
+                            <option value="mastercard">MasterCard</option>
+                        </select>
+                    </td>
+                </tr>
+
+               
+                <tr>
+                    <td colspan="2" align="center" style="padding: 10px;">
+                        <input type="submit" value="Send Data">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
